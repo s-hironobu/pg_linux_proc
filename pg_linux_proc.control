@@ -1,0 +1,5 @@
+# pg_linux_proc extension
+comment = 'show /proc info on Linux'
+default_version = '1.0'
+module_pathname = '$libdir/pg_linux_proc'
+relocatable = true
