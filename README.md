@@ -32,9 +32,9 @@ postgres=# CREATE EXTENSION pg_linux_proc;
 
 ## How to use
 
-### pg_proc('subdir')
+### pg_proc('file')
 
-`pg_proc(subdir)` displays information for specified sub-directory under `/proc`.
+`pg_proc(file)` displays information for specified file under `/proc`.
 
 Here are examples display `/proc/version_signature` and `/proc/misc`:
 

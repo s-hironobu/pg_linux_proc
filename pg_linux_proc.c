@@ -64,7 +64,7 @@ _PG_fini(void)
 }
 
 /*
- * Display information for specified subdirectory under /proc.
+ * Display information for specified file under /proc.
  */
 
 Datum
