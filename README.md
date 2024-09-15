@@ -5,6 +5,7 @@
 
 It was developed to simplify OS statistics monitoring without requiring the use of heavyweight solutions like Zabbix and Prometheus.
 
+This extension supports PostgreSQL versions 16 and 17.
 
 ## Installation
 
@@ -244,4 +245,5 @@ testdb=# select * from pg_proc_stat();
 
 
 ## Change Log
+ - 16 Sep, 2024: Supported PG17.
  - 28 Mar, 2024: Version 1.0 Released.
